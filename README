@@ -1,0 +1,20 @@
+Parallel Computing: Matrix-Vector Multiplication
+Author: Jimmy Nguyen - Jimmy@Jimmyworks.net
+
+Contents:
+
+matrix_vector_rowwise.c			Main completed program solution (MPI + OpenMP)
+matrix_vector_checkered.c		Partial alternate solution
+Makefile						Project makefile
+Results.xlsx					Excel file with processed results from sbatch execution
+slurm-2759184.out				Raw output from SLURM sbatch executing file
+Report.docx						Final report
+
+Make commands:
+
+make				make complete executable solution
+make debug			test solution with debugger showing values
+
+mpirun –n <process count> ./ matrix_vector_rowwise <m> <n> DEBUG	
+					manual input to run the program with custom process count, 
+					m and n values, and DEBUG to printout result

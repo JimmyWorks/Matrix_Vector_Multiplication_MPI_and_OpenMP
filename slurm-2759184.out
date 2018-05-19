@@ -1,0 +1,41 @@
+Updating .d Dependency File
+mpirun -n 10 ./program4 30000 16000
+User-defined Run. Rows = 30000, Cols = 16000
+
+Final time: 0.314130
+mpirun -n 9 ./program4 30000 16000
+User-defined Run. Rows = 30000, Cols = 16000
+
+Final time: 0.342765
+mpirun -n 8 ./program4 30000 16000
+User-defined Run. Rows = 30000, Cols = 16000
+
+Final time: 0.396194
+mpirun -n 7 ./program4 30000 16000
+User-defined Run. Rows = 30000, Cols = 16000
+
+Final time: 0.441566
+mpirun -n 6 ./program4 30000 16000
+User-defined Run. Rows = 30000, Cols = 16000
+
+Final time: 0.503036
+mpirun -n 5 ./program4 30000 16000
+User-defined Run. Rows = 30000, Cols = 16000
+
+Final time: 0.592306
+mpirun -n 4 ./program4 30000 16000
+User-defined Run. Rows = 30000, Cols = 16000
+
+Final time: 0.721394
+mpirun -n 3 ./program4 30000 16000
+User-defined Run. Rows = 30000, Cols = 16000
+
+Final time: 0.979018
+mpirun -n 2 ./program4 30000 16000
+User-defined Run. Rows = 30000, Cols = 16000
+
+Final time: 1.493601
+mpirun -n 1 ./program4 30000 16000
+User-defined Run. Rows = 30000, Cols = 16000
+
+Final time: 2.719390
